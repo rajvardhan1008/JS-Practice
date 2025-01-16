@@ -13,3 +13,26 @@
 //const hoising : same as let
 // console.log(num);
 // const num = 10;
+
+
+// *** Function hoisting : we can access function before declaration
+// add();
+// function add(){
+//     console.log(4+8);
+// } 
+
+
+// ***Function Expression : when funtion assigned to a variable, they are hoised like variable
+// console.log(funVar);
+// var funVar = function(){
+//     console.log("hii");
+// }
+
+
+// *** Class Hoisting : hoisted but not initialized
+// var obj = new tempClass(); //errror
+// class tempClass{
+//     constructor(){
+//         console.log("temp class");
+//     }
+// }
