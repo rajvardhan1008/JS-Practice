@@ -28,3 +28,8 @@
 // while(i<=0);
 
 
+// ***forEach loop - used to iterate over arrays
+// var arr = [2,4,8,10,12,14,16,18,20];
+// arr.forEach((number) => console.log(number));
+
+
