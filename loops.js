@@ -19,3 +19,12 @@
 // }
 
 
+// ***do_while loop - similar to while, but this loops atleast once
+// let i = 0;
+// do{
+//     console.log(i);
+//     i++;
+// }
+// while(i<=0);
+
+
