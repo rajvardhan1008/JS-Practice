@@ -58,3 +58,17 @@
 
 
 
+// ***control statements in - break, continue
+
+// ***break - stops the loop completely
+// for(var i = 1; i <11; i++){
+//     console.log(i);
+//     if(i == 5) break;
+// }
+
+
+// ***continue - skip the current iteration, does not got down
+// for(var i = 1; i < 11; i++){
+//     if(i%2 != 0) continue;
+//     console.log(i);
+// }
