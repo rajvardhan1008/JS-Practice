@@ -10,3 +10,12 @@
 // }
 
 
+// ***while loop - when iterations is not know or depends on some condition
+// let stop = 10;
+// let i = 1;
+// while(i <= stop){
+//     console.log(i);
+//     i++;
+// }
+
+
