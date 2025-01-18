@@ -33,3 +33,28 @@
 // arr.forEach((number) => console.log(number));
 
 
+// ***for_in loop - used to iterate over the keys of an object
+// var obj = {
+//     1:false,
+//     2:true,
+//     3:true,
+//     4:false,
+//     5:true
+// };
+// for(key in obj){
+//     console.log("key:",key, "and value is : ", obj[key]);
+// }
+
+
+// ***for_of loop - used to iterate over array, strings, object
+// var arr = ["hello", "this", "is", "rajvardhan"];
+// for(val of arr){
+//     console.log(val);
+// }
+// var str = "hellothisisrajvardhan";
+// for(char of str){
+//     console.log(char);
+// }
+
+
+
