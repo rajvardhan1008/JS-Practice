@@ -16,3 +16,11 @@
 // console.log(sumOfArray(1,2,3,4,5,6,7,8,9,10));
 
 
+//***Destructured Parameters - js allows us to destrutring objects or arrys directly in the paramets
+// function sayNamaste({name, age}){
+//     console.log(`Namaster, ${name} you are ${age} years old`);
+// }
+
+// const obj = { name:"Rajvardhan", age:21, city:"Bhopal"};
+// sayNamaste(obj);
+
