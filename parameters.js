@@ -24,3 +24,10 @@
 // const obj = { name:"Rajvardhan", age:21, city:"Bhopal"};
 // sayNamaste(obj);
 
+
+// ***Default parameters - if parameter is not provided, then this will be used
+// function sayHello(name = "raj"){
+//     console.log(`namaste ${name}`);
+// }
+// sayHello("India");  // namaste India
+// sayHello(); // namaste raj
