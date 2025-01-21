@@ -7,4 +7,13 @@
 // }
 // greet("Raj", "Dangi");
 
+// ***Default Arguments - default values of parameters in case arguments are not provided or undefined
+// function userDetials(name, age, place = "India"){
+//     console.log(`Hello, ${name}, you are ${age} years old, and you blong from ${place}`);
+// }
+
+// userDetials("raj", 22, "Bhopal");
+// userDetials("Rajvardhan", 21);
+// userDetials("Rajvardhan Dangi", 23, undefined);
+
 
