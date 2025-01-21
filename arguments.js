@@ -17,3 +17,9 @@
 // userDetials("Rajvardhan Dangi", 23, undefined);
 
 
+// ***Spred Arguments - allows us to iterate on iterable data types to expand into individual elements
+// function sum(a, b, c){
+//     console.log(a+b+c);
+// }
+// const number = [1, 2, 3];
+// sum(...number);
