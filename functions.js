@@ -43,3 +43,28 @@
 // }
 
 // outerFun(10);
+
+
+
+// ***Scope chain - Js determines the heirarchy of variabl accessibility.
+// *** firstly local scope, then outer scope and then global scope
+
+// let globalVar = "Global";
+
+// function outerFunction() {
+//     let outerVar = "Outer";
+
+//     function innerFunction() {
+//         let innerVar = "Inner";
+
+//         console.log(innerVar); // Accessible: Inner Variable
+//         console.log(outerVar); // Accessible: Outer Variable
+//         console.log(globalVar); // Accessible: Global Variable
+//     }
+
+//     innerFunction();
+//     // console.log(innerVar); // Error: innerVar is not defined (local to innerFunction)
+// }
+
+// outerFunction();
+// // console.log(outerVar); // Error: outerVar is not defined (local to outerFunction)
