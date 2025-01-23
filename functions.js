@@ -68,3 +68,11 @@
 
 // outerFunction();
 // // console.log(outerVar); // Error: outerVar is not defined (local to outerFunction)
+
+
+
+// ***Immediately invoked funtions (IIFE) - these are the funtions which is invoked as soon as they defined
+
+// (function(){
+//     console.log("Namaste !");
+// }());
