@@ -29,3 +29,17 @@
 // }
 // sayNamaste();
 
+
+// ***Nested Function - function inside function , the inner function can accept any value of outer funtion
+// function outerFun(outerVal){
+//     console.log(`In outer funtion : outer value : ${outerVal}`);
+
+//     function innerFun(innerVal){
+//         console.log(`In inner function : inner Value : ${innerVal}`);
+//         console.log(`In inner funntion : outer Value : ${outerVal} `);
+//     }
+
+//     innerFun(5);
+// }
+
+// outerFun(10);
