@@ -108,3 +108,14 @@
 
 
 
+// ***Callback funtion - it is passed as an argumment to another funtion to be executed
+function myCallback(sum){
+    console.log(`Sum is ${sum}`);
+}
+
+function sum(num1, num2, callbackFun){  //callbackFun is a callback function.
+    const sum = num1+num2;
+    callbackFun(sum);
+}
+
+sum(2, 3, myCallback);
