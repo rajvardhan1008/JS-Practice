@@ -109,13 +109,22 @@
 
 
 // ***Callback funtion - it is passed as an argumment to another funtion to be executed
-function myCallback(sum){
-    console.log(`Sum is ${sum}`);
-}
+// function myCallback(sum){
+//     console.log(`Sum is ${sum}`);
+// }
 
-function sum(num1, num2, callbackFun){  //callbackFun is a callback function.
-    const sum = num1+num2;
-    callbackFun(sum);
-}
+// function sum(num1, num2, callbackFun){  //callbackFun is a callback function.
+//     const sum = num1+num2;
+//     callbackFun(sum);
+// }
 
-sum(2, 3, myCallback);
+// sum(2, 3, myCallback);
+
+
+// ***First-Class Function - means funtions can be sotored in a variable, passes as an arguemnt and can be returned by a function.
+// function sayNamaste(){
+//     console.log("Namaste...");
+// }
+
+// const greeting = sayNamaste;
+// greeting();
