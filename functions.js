@@ -98,3 +98,13 @@
 //     console.log("Namaster, Duniya");
 // }
 // greet();
+
+
+// ***Higher Order Function - a function that accept another funtion as an argument or return a function
+// function HigherOrderFunction(){
+//     console.log("HOF Invoked!");
+// }
+// HigherOrderFunction((message) => console.log(message));
+
+
+
