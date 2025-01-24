@@ -76,3 +76,18 @@
 // (function(){
 //     console.log("Namaste !");
 // }());
+
+
+
+// **********************************TYPES OF FUNCTION*******************************
+// *** Arrow, anonymous, Higher-order, callback, first class, pure funtion, impure fuction
+
+
+// ***Arrow funtion - concise way of writing funtion
+const add = (a, b)=> a+b; //without block body
+console.log(add(2, 5));
+
+const multiply = (a, b)=>{ //with block body
+    return a*b;
+}
+console.log(multiply(2, 10));
