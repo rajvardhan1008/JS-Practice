@@ -128,3 +128,23 @@
 
 // const greeting = sayNamaste;
 // greeting();
+
+
+// ***Pure funtions - always return same result for the same input
+// ***Does not modifies the variables outside the scope
+// function add(a, b){
+//     return a+b;
+// }
+// console.log(add(10, 20)); // 30
+// console.log(add(10, 20)); // 30
+
+
+
+// ***Impure Function - modifies external variables
+// var count = 0;
+
+// function increment(){
+//     count++;
+// }
+// increment();
+// console.log(count);
