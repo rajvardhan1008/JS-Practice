@@ -84,10 +84,17 @@
 
 
 // ***Arrow funtion - concise way of writing funtion
-const add = (a, b)=> a+b; //without block body
-console.log(add(2, 5));
+// const add = (a, b)=> a+b; //without block body
+// console.log(add(2, 5));
 
-const multiply = (a, b)=>{ //with block body
-    return a*b;
-}
-console.log(multiply(2, 10));
+// const multiply = (a, b)=>{ //with block body
+//     return a*b;
+// }
+// console.log(multiply(2, 10));
+
+
+// ***Anonymous Funtion - a function without name
+// const greet = function(){
+//     console.log("Namaster, Duniya");
+// }
+// greet();
